@@ -1,0 +1,57 @@
+.CardBox {
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    row-gap: 5px;
+    /* border-radius: 3px; */
+    background-color: white;
+    /* box-shadow: 0 0 5px 1px  rgba(176, 128, 82, 0.908) */
+}
+
+.CardBox .text {
+    text-align: start;
+}
+.CardBox .text .prices{
+    display: flex;
+    justify-content: flex-start;
+    gap: 25px;
+}
+.CardBox .text .prices p{
+    color: #0f8fac;
+}
+
+
+.CardBox .text h4 {
+    color: #52585d;
+    font-size: 14px;
+    font-weight: lighter;
+    font-family: "Jost", sans-serif;
+}
+
+.CardBox .text p,
+del {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 0;
+    color: #55565c;
+    font-family: "Jost", sans-serif;
+}
+
+.CardBox .text span {
+    color: #252523;
+    font-family: "Jost", sans-serif;
+    font-size: 17px;
+    /* font-weight: bold; */
+}
+
+.CardBox img {
+    object-fit: scale-down;
+    height: 200px;
+    width: 100%;
+
+}
+
+.CardBox a {
+    cursor: pointer;
+}
